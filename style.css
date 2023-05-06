@@ -1,0 +1,85 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Itim', cursive;
+}
+.Record {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 18px;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    background: radial-gradient(circle, rgba(47,255,253,1) 0%, rgba(33,102,241,1) 88%);
+    box-shadow: 0px -16px 20px 13px #222;
+}
+.titel {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ff1e1e;
+}
+.form {
+    display: flex;
+    background: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #009688;
+    padding: 26px;
+    box-shadow:
+        inset #009688 0 0 0 5px, 
+        inset #059c8e 0 0 0 1px, 
+        inset #0cab9c 0 0 0 10px, 
+        inset #1fbdae 0 0 0 11px, 
+        inset #8ce9ff 0 0 0 16px, 
+        inset #48e4d6 0 0 0 17px, 
+        inset #e5f9f7 0 0 0 21px, 
+        inset #bfecf7 0 0 0 22px;
+    text-shadow: 3px 3px 1px #bfecf7;
+}
+.input-task {
+    border-right: none;
+    padding: 6px 8px;
+    font-family: 'Itim', cursive;
+}
+.submit-btn {
+    border-left: none;
+    font-family: 'Itim', cursive;
+}
+.show-records {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-sr {
+    display: grid;
+    grid-template-columns: 30px 1fr 100px;;
+    align-items: center;
+    padding: 8px;
+    background-color: rgb(178, 178, 178);
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.label-sr {
+    margin-bottom: 1px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-del-sr {
+    font-family: 'Itim', cursive;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+.mid-titel {
+    text-align: center;
+    padding: 16px 0px;
+    font-family: 'Itim', cursive;
+    font-size: 16px;
+    font-weight: 700;
+}
